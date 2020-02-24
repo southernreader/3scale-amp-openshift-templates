@@ -4291,7 +4291,7 @@ parameters:
   value: registry.redhat.io/3scale-amp2/apicast-gateway-rhel7:3scale2.7
 - name: AMP_SYSTEM_IMAGE
   required: true
-  value: quay.io/3scale-amp2/system-rhel7:3scale2.7
+  value: registry.redhat.io/3scale-amp2/system-rhel7
 - description: Zync's PostgreSQL image to use
   name: ZYNC_DATABASE_IMAGE
   required: true
