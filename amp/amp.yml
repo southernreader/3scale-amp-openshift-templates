@@ -1474,12 +1474,12 @@ objects:
     name: system-storage
   spec:
     accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
     dataSource: null
     resources:
       requests:
         storage: 100Mi
-    storageClassName: ibmc-file-gold
+    storageClassName: ibmc-block-gold
   status: {}
 - apiVersion: v1
   kind: Service
