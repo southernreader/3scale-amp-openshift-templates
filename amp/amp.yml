@@ -1479,7 +1479,7 @@ objects:
     resources:
       requests:
         storage: 100Mi
-    storageClassName: ibmc-block-gold
+    storageClassName: ibmc-file-silver-gid-1
   status: {}
 - apiVersion: v1
   kind: Service
