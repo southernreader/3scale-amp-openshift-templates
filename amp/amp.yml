@@ -1479,7 +1479,7 @@ objects:
     resources:
       requests:
         storage: 100Mi
-    storageClassName: ${{RWX_STORAGE_CLASS}}
+    storageClassName: ibmc-file-gold
   status: {}
 - apiVersion: v1
   kind: Service
